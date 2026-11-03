@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff9f7;
+    color: #39313a;
+    line-height: 1.7;
+}
+
+header {
+    background: rgba(255, 249, 247, 0.96);
+    padding: 18px 8%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(180, 120, 140, 0.12);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #ce7594;
+    font-size: 27px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #39313a;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ce7594;
+}
+
+.hero {
+    min-height: 520px;
+    padding: 80px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background: linear-gradient(120deg, #f8dde5, #eee6fa);
+}
+
+.welcome {
+    color: #bc6384;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin: 12px 0;
+}
+
+.hero h1 span {
+    color: #c56d91;
+}
+
+.hero h2 {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 550px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    background: #d47d9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ae5578;
+    transform: translateY(-3px);
+}
+
+.avatar {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #fff9f7;
+    border: 8px solid #e6bad0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c56d91;
+    font-size: 65px;
+    font-weight: 700;
+    box-shadow: 0 10px 30px rgba(180, 120, 140, 0.2);
+}
+
+section:not(.hero) {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 30px;
+    color: #bd6989;
+    margin-bottom: 25px;
+}
+
+#about p {
+    max-width: 850px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 22px;
+    margin-top: 30px;
+}
+
+.card, .project {
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(190, 130, 150, 0.12);
+    border: 1px solid #f4dce5;
+    transition: 0.3s;
+}
+
+.card:hover, .project:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(190, 130, 150, 0.2);
+}
+
+.project h3 {
+    color: #c56d91;
+    margin-bottom: 12px;
+}
+
+#achievements .card {
+    max-width: 650px;
+    margin: auto;
+}
+
+#achievements p {
+    margin: 12px;
+}
+
+#contact {
+    background: #f8e7ee;
+}
+
+#contact p {
+    margin: 10px;
+}
+
+footer {
+    background: #413642;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 55px 7%;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .avatar {
+        width: 160px;
+        height: 160px;
+        font-size: 48px;
+    }
+
+    section:not(.hero) {
+        padding: 50px 7%;
+    }
+}
+#certifications {
+    padding: 60px 10%;
+    text-align: center;
+    background-color: #fff7f9;
+}
+
+#certifications h2 {
+    color: #9b6b83;
+    margin-bottom: 30px;
+}
+
+.certification-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.certification-card {
+    background: #f5e6ef;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.certification-card:hover {
+    transform: translateY(-5px);
+}
+
+.certification-card h3 {
+    color: #80516d;
+}
+
+.certification-card p {
+    color: #555;
+    line-height: 1.6;
+}
