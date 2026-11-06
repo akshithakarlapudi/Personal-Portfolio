@@ -1,144 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akshitha Sai | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Akshitha Sai Karlapudi — Computer Science Engineering student, aspiring software developer and project builder.">
+  <meta name="theme-color" content="#fff8fb">
+  <title>Akshitha Sai Karlapudi | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-    <nav>
-        <h2>Akshitha|Portfolio</h2>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Akshitha home">akshitha<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#highlights">Highlights</a></li>
+        <li><a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a></li>
+      </ul>
     </nav>
-</header>
+  </header>
 
-<section id="home" class="hero">
-    <div>
-        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
-        <h1>Hi, I'm <span>Akshitha Sai</span></h1>
-        <h2>Computer Science Engineering Student</h2>
-        <p>Passionate about technology, web development
-        and creating innovative solutions.</p>
-        <a href="#projects" class="btn">Explore My Work</a>
-    </div>
-    <div class="profile">
-        <div class="avatar">AS</div>
-    </div>
-</section>
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> HELLO, I'M AKSHITHA</p>
+          <h1>Building thoughtful<br>solutions with <span>technology.</span></h1>
+          <p class="hero-role">Computer Science Engineering Student <span>·</span> Aspiring Software Developer</p>
+          <p class="hero-description">I enjoy turning ideas into useful applications, solving problems, and continuously learning technologies that make a difference.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="button button-secondary" href="#contact">Get in touch</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/akshithakarlapudi" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/akshitha-karlapudi-7a7274333" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="portrait-frame">
+            <div class="portrait-placeholder">
+    <img src="assets/akshitha-photo.png"
+         alt="Akshitha Sai Karlapudi">
+</div>
+            <div class="portrait-sticker"><span>✳</span><small>Curious mind.<br>Creative spirit.</small></div>
+          </div>
+          <div class="hero-note"><span class="note-dot"></span> Open to learning & opportunities</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a Computer Science Engineering student at
-        Gokaraju Lailavathi Engineering College, Hyderabad.
-        I enjoy programming, problem-solving and developing
-        creative web applications. I am always eager to learn
-        new technologies and improve my technical skills.
-    </p>
-</section>
+    <section class="section section-light" id="about">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>A little about<br><span>my journey.</span></h2>
+        </div>
+        <div class="about-content reveal">
+          <p class="lead">I’m a Computer Science Engineering student at <strong>Gokaraju Lailavathi Engineering College, Hyderabad</strong>, with a strong interest in software development and practical problem-solving.</p>
+          <p>I like exploring new tools, building projects, and collaborating on ideas that solve everyday problems. Outside technology, I’m a dedicated Kuchipudi dancer — an experience that has taught me discipline, creativity, and consistency.</p>
+          <div class="stats-row">
+            <div class="stat"><strong>9.23</strong><span>CGPA</span></div>
+            <div class="stat"><strong>20+</strong><span>Dance performances</span></div>
+            <div class="stat"><strong>3+</strong><span>Project areas</span></div>
+          </div>
+          <div class="education-card">
+            <span class="education-icon">✦</span>
+            <div><strong>Bachelor of Engineering — Computer Science</strong><span>Gokaraju Lailavathi Engineering College · Hyderabad</span></div>
+            <span class="education-date">2023–2027</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="skills">
-    <h2>My Technical Skills</h2>
-    <div class="grid">
-        <div class="card">HTML</div>
-        <div class="card">CSS</div>
-        <div class="card">JavaScript</div>
-        <div class="card">Python</div>
-        <div class="card">Java(J2SE)</div>
-        <div class="card">C / C++</div>
-        <div class="card">SQL</div>
-    </div>
-</section>
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">02 / TOOLKIT</p>
+          <h2>Skills I bring <span>to the table.</span></h2>
+          <p class="section-intro">A growing toolkit for building, learning, and solving problems.</p>
+        </div>
+        <div class="skill-groups">
+          <article class="skill-card reveal"><div class="skill-icon">⌘</div><h3>Programming</h3><div class="tags"><span>Python</span><span>Java</span><span>C</span><span>C++</span><span>SQL</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">◇</div><h3>Web development</h3><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React.js</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">▤</div><h3>Core concepts</h3><div class="tags"><span>Data Structures</span><span>DBMS</span><span>Operating Systems</span><span>REST APIs</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">✳</div><h3>Tools & interests</h3><div class="tags"><span>Git</span><span>GitHub</span><span>Machine Learning</span><span>Problem Solving</span></div></article>
+        </div>
+      </div>
+    </section>
 
-<section id="projects">
-    <h2>My Projects</h2>
-    <div class="grid">
-        <div class="project">
+    <section class="section section-light" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / SELECTED WORK</p>
+          <h2>Projects with <span>purpose.</span></h2>
+          <p class="section-intro">A selection of applications and ideas I have worked on.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-top"><span class="project-number">01</span><span class="project-type">MACHINE LEARNING</span></div>
+            <div class="project-art art-accident"><span>↗</span><div class="art-road"></div><div class="art-pin">!</div></div>
             <h3>AcciAlert</h3>
-            <p>Machine learning-based road accident severity prediction system.</p>
-        </div>
-        <div class="project">
+            <p>A road accident severity prediction system that applies machine learning to classify accident risk and support safer travel decisions.</p>
+            <div class="tags"><span>Python</span><span>Scikit-learn</span><span>Random Forest</span><span>SMOTE</span></div>
+            <a class="project-link" href="https://github.com/akshithakarlapudi" target="_blank" rel="noreferrer">Explore on GitHub <span>↗</span></a>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-number">02</span><span class="project-type">AI / COMPUTER VISION</span></div>
+            <div class="project-art art-food"><span class="food-emoji">◉</span><span class="food-label">IMAGE → RECIPE</span></div>
+            <h3>Food2Recipe</h3>
+            <p>An intelligent food-image application designed to identify food and generate relevant recipe suggestions.</p>
+            <div class="tags"><span>Deep Learning</span><span>Computer Vision</span><span>NLP</span></div>
+            <a class="project-link" href="https://github.com/akshithakarlapudi" target="_blank" rel="noreferrer">Explore on GitHub <span>↗</span></a>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-number">03</span><span class="project-type">WEB APPLICATION</span></div>
+            <div class="project-art art-campus"><span class="campus-node">A</span><span class="campus-node">B</span><span class="campus-node">C</span><i></i></div>
             <h3>CampusConnect</h3>
-            <p>A student networking platform for collaboration and communication.</p>
-        </div>
-        <div class="project">
+            <p>A student networking platform for sharing campus information, connecting with peers, and collaborating on opportunities.</p>
+            <div class="tags"><span>React</span><span>Web Development</span><span>Database</span></div>
+            <a class="project-link" href="https://github.com/akshithakarlapudi" target="_blank" rel="noreferrer">Explore on GitHub <span>↗</span></a>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-number">04</span><span class="project-type">WEB PLATFORM</span></div>
+            <div class="project-art art-lunch"><span>♡</span><small>HOME-MADE · DELIVERED</small></div>
             <h3>Mom2School</h3>
-            <p>A homemade lunch delivery platform connecting parents and students.</p>
-        </div>
-        <div class="project">
+            <p>A lunch delivery concept connecting parents and students through scheduled pickup and delivery during school lunch breaks.</p>
+            <div class="tags"><span>MERN Stack</span><span>Scheduling</span><span>Web Development</span></div>
+            <a class="project-link" href="https://github.com/akshithakarlapudi" target="_blank" rel="noreferrer">Explore on GitHub <span>↗</span></a>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-number">05</span><span class="project-type">EDTECH</span></div>
+            <div class="project-art art-tutor"><span>✎</span><span class="tutor-lines"></span></div>
             <h3>Savvy Tutors</h3>
-            <p>An online and offline tutoring application connecting students and tutors.</p>
+            <p>An online and offline tutoring application concept that connects learners with tutors for flexible learning.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="https://github.com/akshithakarlapudi" target="_blank" rel="noreferrer">Explore on GitHub <span>↗</span></a>
+          </article>
         </div>
-    </div>
-</section>
-<!-- Certifications Section -->
-<section id="certifications">
-    <h2>My Certifications</h2>
+        
+      </div>
+    </section>
 
-    <div class="certification-container">
-
-        <div class="certification-card">
-            <h3>📜 NPTEL – Python Programming</h3>
-            <p>Completed certification in Python programming through NPTEL.</p>
+    <section class="section" id="highlights">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">04 / BEYOND THE CODE</p>
+          <h2>Learning, creating <span>& performing.</span></h2>
         </div>
-
-        <div class="certification-card">
-            <h3>🐍 HackerRank – Python (Basic)</h3>
-            <p>Demonstrated programming skills and problem-solving using Python.</p>
+        <div class="highlights-grid">
+          <article class="highlight-card reveal"><span class="highlight-symbol">✧</span><p class="highlight-label">CERTIFICATION</p><h3>NPTEL — Python Programming</h3><p>Completed certification in Python programming through NPTEL.</p></article>
+          <article class="highlight-card reveal"><span class="highlight-symbol">⌘</span><p class="highlight-label">CERTIFICATION</p><h3>HackerRank — Python & SQL</h3><p>Earned HackerRank certificates demonstrating Python and SQL skills.</p></article>
+          <article class="highlight-card reveal"><span class="highlight-symbol">舞</span><p class="highlight-label">CLASSICAL DANCE</p><h3>Kuchipudi</h3><p>Performed in 20+ cultural programs, including at Srisailam, Yadagirigutta, and Meenakshi Amman Temple, Madurai. Participated in a 7,000+ artist Guinness World Record event.</p></article>
+          <article class="highlight-card reveal"><span class="highlight-symbol">🏅</span><p class="highlight-label">SPORTS</p><h3>Kabaddi</h3><p>Won silver in 2024 and gold in 2025 at college sports competitions.</p></article>
         </div>
+      </div>
+    </section>
 
-        <div class="certification-card">
-            <h3>💻 HackerRank – SQL</h3>
-            <p>Demonstrated knowledge of SQL queries, database concepts and data manipulation.</p>
+    <section class="contact-section section" id="contact">
+      <div class="container contact-layout">
+        <div class="reveal">
+          <p class="eyebrow">05 / LET'S CONNECT</p>
+          <h2>Have an idea?<br><span>Let's talk.</span></h2>
+          <p class="contact-intro">I’m interested in learning, collaborating, and exploring opportunities where I can contribute and grow.</p>
         </div>
-
-    </div>
-</section>
-<section id="achievements">
-    <h2>Achievements & Activities</h2>
-
-    <div class="certification-container">
-
-        <div class="certification-card">
-            <h3>💃 Kuchipudi Dance</h3>
-            <p>Performed in more than 20 cultural programs.</p>
-            <p>Performed at renowned temples like Srisailam
-            and Yadagirigutta.</p>
-            <p>Performed at Meenakshi Amman Temple,
-            Madurai, Tamil Nadu.</p>
-            <p>Participated in a Guinness World Record
-            event with 7,000+ Kuchipudi artists.</p>
+        <div class="contact-card reveal">
+          <a href="mailto:akshithakarlapudi@gmail.com" class="contact-row"><span>Email</span><strong>akshithakarlapudi@gmail.com ↗</strong></a>
+          <a href="https://github.com/akshithakarlapudi" target="_blank" rel="noreferrer" class="contact-row"><span>GitHub</span><strong>github.com/akshithakarlapudi ↗</strong></a>
+          <a href="https://www.linkedin.com/in/akshitha-karlapudi-7a7274333" target="_blank" rel="noreferrer" class="contact-row"><span>LinkedIn</span><strong>Connect with me ↗</strong></a>
+          <a class="button button-light" href="mailto:akshithakarlapudi@gmail.com">Send me an email <span>↗</span></a>
         </div>
+      </div>
+    </section>
+  </main>
 
-        <div class="certification-card">
-            <h3>🏅 Kabaddi</h3>
-            <p>Participated in a Kabaddi competition
-            during a college sports event.</p>
-        </div>
-
-    </div>
-</section>
-
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: akshithakarlapudi@gmail.com</p>
-    <p>GitHub: github.com/akshithakarlapudi</p>
-    <p>LinkedIn: linkedin.com/in/akshitha-karlapudi-7a7274333</p>
-</section>
-
-<footer>
-    <p>© 2026 Akshitha Sai | Personal Portfolio</p>
-</footer>
-
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home">akshitha<span>.</span></a><p>Designed & built with care by Akshitha Sai Karlapudi.</p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
 </body>
 </html>
